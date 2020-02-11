@@ -1,5 +1,6 @@
 import React from 'react';
-import { compose, graphql } from 'react-apollo';
+import { graphql } from 'react-apollo';
+import * as compose from 'lodash.flowright';
 import { gql } from 'apollo-boost';
 
 import CheckoutItem from './checkout-item.component';
